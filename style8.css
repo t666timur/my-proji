@@ -1,0 +1,19 @@
+h1 {
+    color: darkcyan;
+    background-color: brown;
+}
+
+.shopping-block .step {
+    background-color: blueviolet;
+    color: palevioletred;
+}
+
+.Preparation-block .step {
+    background-color: yellowgreen;
+    color: darkslategray;
+}
+
+.cooking-block .step {
+    background-color: darkorange;
+    color: aqua;
+}
