@@ -1,0 +1,45 @@
+/* Основные стили для блоков */
+.block {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.large {
+    background-color: #f39c12;
+    width: 80%;
+}
+
+.medium {
+    background-color: #3498db;
+    width: 60%;
+}
+
+.small {
+    background-color: #2ecc71;
+    width: 40%;
+}
+
+/* Стили для блока с id="block1" */
+#block1 {
+    font-size: 24px;
+}
+
+/* Стили для блока с id="block2" */
+#block2 {
+    font-size: 20px;
+}
+
+/* Стили для блока с id="block3" */
+#block3 {
+    font-size: 16px;
+}
+
+/* Стили для блока с классом "special" */
+.special {
+    background-color: #e74c3c;
+    font-weight: bold;
+    color: #fff;
+}
