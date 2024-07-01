@@ -1,0 +1,69 @@
+/* Загальні стилі для контейнера форми */
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Стиль заголовка */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Стилі для меток і полів вводу */
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+/* Стилі під час наведенні курсора на поле вводу */
+.form-container input[type="text"]:hover,
+.form-container input[type="email"]:hover,
+.form-container input[type="password"]:hover {
+    border: 1px solid #007BFF;
+}
+
+/* Стилі під час фокусування на полі вводу */
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container input[type="password"]:focus {
+    border: 1px solid #0056b3;
+    box-shadow: 0 0 5px rgba(0, 87, 255, 0.3);
+    outline: none;
+}
+
+/* Стилі для кнопки */
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Стиль під час наведення курсора на кнопку */
+.form-container button:hover {
+    background-color: #0056b3;
+}
