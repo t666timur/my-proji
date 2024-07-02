@@ -1,0 +1,31 @@
+/* Загальні стилі для меню навігації */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #333;
+}
+
+.menu li {
+    margin: 0;
+}
+
+/* Стилі для посилань у меню */
+.menu a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Стилі для активного пункту меню */
+.menu a.active {
+    background-color: #007BFF;
+    font-weight: bold;
+}
+
+/* Стилі при наведенні курсора на посилання */
+.menu a:hover {
+    background-color: #555;
+}
