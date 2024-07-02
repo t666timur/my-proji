@@ -1,0 +1,29 @@
+/* Загальні стилі для текстових блоків */
+.text-block {
+    margin: 20px;
+}
+
+/* Стилі для великого тексту */
+.large-text {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+/* Стилі для середнього тексту */
+.medium-text {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Стилі для малого тексту */
+.small-text {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Зміна стилю тексту при наведенні курсора */
+.text-block p:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: aqua;
+}
