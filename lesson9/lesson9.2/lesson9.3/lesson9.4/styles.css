@@ -1,0 +1,35 @@
+/* Стиль для таблиці */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.data-table th, .data-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Зміна стилю заголовків таблиці */
+.data-table thead {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+/* Застосування стилів до парних рядків таблиці */
+.data-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Застосування стилів до непарних рядків таблиці */
+.data-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Зміна стилю рядків при наведенні */
+.data-table tbody tr:hover {
+    background-color: hsl(185, 47%, 50%);
+}
