@@ -32,11 +32,12 @@ main {
 }
 
 footer {
-    background-color: #64a225;
+    background-color: #3d6912;
     color: #fff;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    line-height: normal;
 }
