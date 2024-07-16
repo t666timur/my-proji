@@ -11,10 +11,12 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #2ca99f; /* Cтиль до заголовка сторінки та його кольорова схема */
+    margin: 0;
+    color: #c24382;
     padding: 20px;
     text-align: center;
+    font-family: 'Arizon', cursive;
 }
 
 header h1 {
