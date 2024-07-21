@@ -24,7 +24,7 @@ main {
 
 .box1 {
     color: red;
-    background-color: #001122;  /* Кольор фону елементу */
+    background-color: rgba(30, 30, 12, 0.5);  /* Прозорий кольор фону елементу */
     border-color: rgb(149, 79, 54);
     border: 5px solid;
     opacity: .85;
