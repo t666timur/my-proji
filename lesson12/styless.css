@@ -56,7 +56,7 @@ main {
   }
 
   .box2 {
-    color: red;
+    color: rgb(47, 7, 127);
     background-color: #1ac776;   /* Кольор фону елементу */
     border-color: rgb(149, 79, 54);
     border: 5px solid;
@@ -67,7 +67,7 @@ main {
   }
 
   .box3 {
-    color: red;
+    color: rgb(37, 142, 207);
     background-color: #e7e01a;   /* Кольор фону елементу */
     border-color: rgb(149, 79, 54);
     border: 5px solid;
