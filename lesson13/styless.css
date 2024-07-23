@@ -1,0 +1,35 @@
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom right,
+      #4646fe,
+      rgb(119, 78, 160)
+    );
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(circle, #ff0000, #0000ff );
+}
+
+  footer {
+    background-image: linear-gradient(
+        to bottom right,
+        #c356df,
+        rgb(64, 114, 206)
+      );
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
