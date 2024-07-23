@@ -11,11 +11,13 @@ header {
 }
 
 main {
-    height: 100vh;
+    height: 125vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-image: radial-gradient(circle, #ff0000, #0000ff );
+    padding: 15%;
+    font-family: 'CustomFont', Arial, sans-serif; /* Застосування власного шрифту */
 }
 
   footer {
@@ -33,10 +35,62 @@ main {
   }
 
   .shadow-image {
-    display: block;
+    display: flex;
     max-width: 70%;
     height: auto;
     margin: 20px auto;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Тінь для зображення *
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Тінь для зображення */
+  }
 
-  
+  section h2 {
+    font-size: 28px; /* Розмір шрифту для підзаголовків */
+    color: #11e2bc;
+    margin-top: 20px;
+}
+
+section h2.special-font {
+    font-family: 'Lobster', cursive; /* Застосування шрифту Lobster */
+}
+
+.main-text {
+    font-size: 18px; /* Розмір шрифту для основного тексту */
+    color: #cbbb2b;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.gradient-box {
+    background: linear-gradient(to right, #e52ad2, #eee423); /* Градієнтний фон для блоку */
+    animation: linear-gradient-animation 10s infinite, shadow-animation 10s infinite;
+    padding: 20px;
+    color: #8c45d3;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Початкова тінь для блоку */
+    border-radius: 10px; /* Закруглені кути */
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    text-shadow: #8b0b0b;
+}
+@keyframes linear-gradient-animation { /* Анімацію з CSS градієнтом */
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes shadow-animation { /* Анімацію з CSS тінню */
+    0% {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+}
