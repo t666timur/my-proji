@@ -32,4 +32,11 @@ main {
     width: 100%;
   }
 
+  .shadow-image {
+    display: block;
+    max-width: 70%;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Тінь для зображення *
+
   
