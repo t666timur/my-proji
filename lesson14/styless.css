@@ -1,0 +1,63 @@
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(
+      to bottom right,
+      #4646fe,
+      rgb(119, 78, 160));
+      
+}
+
+h1 {
+  color: #e4ef0e;
+  text-shadow: #c356df;
+}
+
+main {
+    height: 125vh;
+    display: flex;
+    background-image: url(https://dorognoe.ru/upload/editor/01/2022/04/8f/622a080c87deb_in_article_f2b1a42b19.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Indie';
+
+}
+
+
+section h2 {
+  font-size: 28px; /* Розмір шрифту для підзаголовків */
+  color: #2cbca1;
+  margin-top: 20px;
+  text-shadow: rgb(250, 232, 98);
+  padding-left: 4cm;
+}
+
+.main-text {
+  font-size: 20px; /* Розмір шрифту для основного тексту */
+  color: #268353;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-shadow: #cce637;
+  font-family: 'Indie', 'cursive'; 
+  padding-left: 2cm;
+  
+}
+
+
+footer {
+    background-image: linear-gradient(
+        to bottom right,
+        #c356df,
+        rgb(64, 114, 206)
+      );
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: flex;
+    bottom: 0;
+    width: 100%;
+  }
+
+  
