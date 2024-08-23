@@ -40,9 +40,8 @@ main {
   text-shadow: darkmagenta;
   line-height: 1.9;
   margin-bottom: 10px;
-  padding-left: 7cm;
+  padding-left: 9cm;
   margin-top: 20px;
-  
 }
 
 
@@ -73,10 +72,12 @@ footer {
     height: 140px;
     background-image: url(wasd.jpg);
     background-repeat: no-repeat;
+    margin-top: 25%;
   }
   
   .key-w {
     background-position: -233px -141px;
+    margin-left: -2%;
   }
 
   .key-a {
@@ -89,4 +90,5 @@ footer {
 
   .key-d {
     background-position: -401px -304px;
+    margin-right: -26%;
   }
