@@ -74,6 +74,11 @@ footer {
     background-repeat: no-repeat;
     margin-top: 25%;
   }
+
+
+  .key:hover {
+    transform: scale(1.2);
+  }
   
   .key-w {
     background-position: -233px -141px;
@@ -91,4 +96,12 @@ footer {
   .key-d {
     background-position: -401px -304px;
     margin-right: -26%;
+  }
+
+  button {
+    height: 15vh;
+    margin-left: 50%;
+    margin-top: 10%;
+    background-color: magenta;
+    color: #ecec1a;
   }
