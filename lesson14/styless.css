@@ -113,8 +113,6 @@ footer {
   }
 
   .icon{
-    width: 170px;
-    height: 160px;
     background-image: url(soc.png);
     background-repeat: no-repeat;
     margin-top: 3%;
@@ -166,4 +164,35 @@ footer {
   background-image: url('dog.webp'); /* Шлях до фону другого декоративного елемента */
   bottom: -35px;
   right: -35px;
+}
+
+.tooltip-container {
+  position: relative; /* Для позиціонування вікна з повідомленням відносно контейнера */
+  display: inline-block;
+  cursor: pointer; /* Зміна курсору при наведенні */
+}
+
+.tooltip {
+  position: absolute;
+  bottom: 100%; /* Розміщення вікна над елементом */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #dd1919; /* Фон вікна з повідомленням */
+  color: #33d47e; /* Колір тексту */
+  padding: 10px;
+  border-radius: 5px;
+  visibility: hidden; /* Спочатку вікно приховане */
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease-in-out; /* Анімація появи/зникання */
+  white-space: nowrap; /* Запобігає переносу тексту */
+  z-index: 10; /* Щоб вікно з'являлося поверх інших елементів */
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible; /* Робить вікно видимим при наведенні */
+  opacity: 1;
+}
+
+.tooltip-container {
+  height: 30vh;
 }
