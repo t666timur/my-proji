@@ -21,6 +21,7 @@ main {
     background-image: url(https://d9c81ad3-85af-4ff6-8378-6038ea045e1b.akamaized.net/2022/12/mc_info_23968_orig_1626324339.jpeg);
     background-size: cover;
     background-position: center;
+    background-attachment: scroll;
 }
 
 
@@ -99,7 +100,7 @@ footer {
   }
 
   button {
-    height: 15vh;
+    height: 10vh;
     margin-left: 50%;
     margin-top: 10%;
     background-color: magenta;
@@ -132,3 +133,37 @@ footer {
   background-position:-533px 3px;
 }
 
+.decorative-box {
+  position: relative;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-left: 15%;
+}
+
+.decorative-box::before,
+.decorative-box::after {
+  content: '';
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* Декоративний елемент зверху зліва */
+.decorative-box::before {
+  width: 50px;
+  height: 50px;
+  background-image: url('cat.webp'); /* Шлях до фону першого декоративного елемента */
+  top: -25px;
+  left: -25px;
+}
+
+/* Декоративний елемент знизу справа */
+.decorative-box::after {
+  width: 75px;
+  height: 75px;
+  background-image: url('dog.webp'); /* Шлях до фону другого декоративного елемента */
+  bottom: -35px;
+  right: -35px;
+}
