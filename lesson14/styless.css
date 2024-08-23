@@ -105,3 +105,30 @@ footer {
     background-color: magenta;
     color: #ecec1a;
   }
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+
+  .icon{
+    width: 170px;
+    height: 160px;
+    background-image: url(soc.png);
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 100px;
+    height: 220px;
+    justify-content: space-between;
+    padding-left: 4cm;
+}
+
+.instagramm {
+  background-position: -249px 3px;;
+}
+
+.telegramm {
+  background-position:-533px 3px;
+}
+
