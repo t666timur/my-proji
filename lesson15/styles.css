@@ -1,0 +1,13 @@
+.rectangle {
+    width: 300px; /* Ширина прямокутника */
+    height: 150px; /* Висота прямокутника */
+    background-color: #4CAF50; /* Колір фону */
+    border: 3px solid #333; /* Рамка */
+    color: #fff; /* Колір тексту */
+    font-size: 18px; /* Розмір шрифту */
+    text-align: center; /* Вирівнювання тексту по центру */
+    line-height: 150px; /* Вертикальне вирівнювання тексту */
+    margin: 50px auto; /* Відступи та центрування прямокутника */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тінь */
+    border-radius: 10px; /* Скруглення кутів */
+}
