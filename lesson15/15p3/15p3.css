@@ -1,0 +1,25 @@
+.rectangle {
+    display: block;
+    width: 300px;
+    height: 150px;
+    background-color: #4CAF50; /* Початковий колір фону */
+    border: 3px solid #333; /* Початкова рамка */
+    color: #fff; /* Колір тексту */
+    font-size: 18px; /* Розмір шрифту */
+    text-align: center; /* Горизонтальне вирівнювання тексту */
+    line-height: 150px; /* Вертикальне вирівнювання тексту */
+    margin: 50px auto; /* Відступи та центрування прямокутника */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Початкова тінь */
+    border-radius: 10px; /* Початкове скруглення кутів */
+    cursor: pointer;
+    transition: all 0.6s ease-in-out 0.1s; /* Перехід на всі властивості */
+}
+
+#toggle:checked + .rectangle {
+    background-color: #FF5733; /* Зміна кольору фону */
+    width: 350px; /* Зміна ширини */
+    height: 200px; /* Зміна висоти */
+    border: 5px solid #FFBD33; /* Зміна рамки */
+    border-radius: 30px; /* Зміна скруглення кутів */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Зміна тіні */
+}
