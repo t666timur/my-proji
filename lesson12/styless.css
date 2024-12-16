@@ -27,7 +27,6 @@ main {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: flex;
     bottom: 0;
     width: 100%;
   }
@@ -66,8 +65,7 @@ main {
   .box3 {
     color: rgb(0, 157, 255);
     background-color: #e7e01a;   /* Кольор фону елементу */
-    border: 5px solid;
-    border-color: rgb(222, 27, 206);  /* Кольори границь для кожного елемента */
+    border: 5px solid rgb(222, 27, 206);  /* Кольори границь для кожного елемента */
     opacity: .85;
     box-shadow: 2px 2px 20px #ffffff;
     text-shadow: 2px 2px 10px #ffffff;
