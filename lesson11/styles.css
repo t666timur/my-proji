@@ -1,10 +1,10 @@
 @font-face {
-    font-family: 'CustomFont';
-    src: url('fonts/custom-font.woff2') format('woff2');
+    font-family: 'Arizonia-Regular';
+    src: url('./Arizonia-Regular.ttf') format('truetype');
 }
 
 body {
-    font-family: 'CustomFont', Arial, sans-serif; /* Застосування власного шрифту */
+    font-family: 'Arizonia-Regular', Arial, sans-serif; /* Застосування власного шрифту */
     margin: 0;
     padding: 0;
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* Градієнт як фон сторінки */
