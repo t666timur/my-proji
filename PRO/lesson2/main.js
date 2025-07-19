@@ -9,5 +9,5 @@ let addMilk = true;
 if (addMilk) {
     console.log(pecipeWithMilk);
 } else {
-    console.log(recipeWithoutMilk);jkkk
+    console.log(recipeWithoutMilk);
 }
